@@ -1,4 +1,3 @@
-#This code is an example of Sigle responsibiliti principle: 
 
 """
 In this example, the Journal class has a single responsibility, which is to store 
@@ -10,6 +9,8 @@ the Journal to different storage mediums (file, web, etc.).
 This separation of responsibilities makes the code more maintainable 
 and easier to understand, as changes to one class won't affect the other.
 """
+
+#This code is an example of Sigle responsibiliti principle: 
 class Journal:
     def __init__(self) -> None:
         self.entries = []
